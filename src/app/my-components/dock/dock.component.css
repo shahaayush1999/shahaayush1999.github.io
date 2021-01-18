@@ -1,0 +1,8 @@
+.dock-items {
+  padding: 7px 14px;
+}
+
+.dock-items:hover {
+  border-radius: 10px;
+  background: rgba(250, 250, 250, 0.2);
+}
