@@ -20,6 +20,7 @@ import { TaskbarClockComponent } from './my-components/taskbar-clock/taskbar-clo
 import { WindowPanelComponent } from './my-components/window-panel/window-panel.component';
 import { TaskbarIconsComponent } from './my-components/taskbar-icons/taskbar-icons.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
         BrowserModule,
         FlexLayoutModule,
         MatToolbarModule,
-        DragDropModule
+        DragDropModule,
+        BrowserAnimationsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
