@@ -1,3 +1,11 @@
 <div class="window" cdkDragBoundary=".boundary" cdkDrag fxLayout="column" fxLayoutAlign="start stretch">
-  <div class="title-bar" fxFlex="8">Hello</div>
+  <div class="title-bar" fxFlex="6">
+    <div fxFlex="8"></div>
+    <div fxFlex="84" fxLayoutAlign="center">Hello</div>
+    <div fxFlex="8" fxLayoutAlign="space-between center">
+      <mat-icon class="action-button gray-background">minimize</mat-icon>
+      <mat-icon class="action-button gray-background">crop_square</mat-icon>
+      <mat-icon class="action-button red-background">close</mat-icon>
+    </div>
+  </div>
 </div>

@@ -21,6 +21,7 @@ import { WindowPanelComponent } from './my-components/window-panel/window-panel.
 import { TaskbarIconsComponent } from './my-components/taskbar-icons/taskbar-icons.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         FlexLayoutModule,
         MatToolbarModule,
         DragDropModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        MatIconModule
     ],
   providers: [],
   bootstrap: [AppComponent]

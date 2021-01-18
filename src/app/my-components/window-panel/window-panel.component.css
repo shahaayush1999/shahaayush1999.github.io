@@ -36,3 +36,21 @@
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
+
+.action-button {
+  color: white;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red-background:hover {
+  background-color: red;
+  border-radius: 20px;
+}
+
+.gray-background:hover {
+  background-color: gray;
+  border-radius: 20px;
+}
