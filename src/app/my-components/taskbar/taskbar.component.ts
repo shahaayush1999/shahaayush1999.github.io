@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-status-bar',
-  templateUrl: './status-bar.component.html',
-  styleUrls: ['./status-bar.component.css']
+  templateUrl: './taskbar.component.html',
+  styleUrls: ['./taskbar.component.css']
 })
-export class StatusBarComponent implements OnInit {
+export class TaskbarComponent implements OnInit {
 
   constructor() { }
 

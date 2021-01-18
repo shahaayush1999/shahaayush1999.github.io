@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CurrentActivityComponent } from './current-activity.component';
+import { TaskbarClockComponent } from './taskbar-clock.component';
 
-describe('CurrentActivityComponent', () => {
-  let component: CurrentActivityComponent;
-  let fixture: ComponentFixture<CurrentActivityComponent>;
+describe('LiveClockComponent', () => {
+  let component: TaskbarClockComponent;
+  let fixture: ComponentFixture<TaskbarClockComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CurrentActivityComponent ]
+      declarations: [ TaskbarClockComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CurrentActivityComponent);
+    fixture = TestBed.createComponent(TaskbarClockComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LiveClockComponent } from './live-clock.component';
+import { TaskbarComponent } from './taskbar.component';
 
-describe('LiveClockComponent', () => {
-  let component: LiveClockComponent;
-  let fixture: ComponentFixture<LiveClockComponent>;
+describe('StatusBarComponent', () => {
+  let component: TaskbarComponent;
+  let fixture: ComponentFixture<TaskbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LiveClockComponent ]
+      declarations: [ TaskbarComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LiveClockComponent);
+    fixture = TestBed.createComponent(TaskbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
